@@ -1,4 +1,4 @@
-`Giveaway()`
+# `Giveaway()`
 
 Provides a signup bonus in ICP to new stakers.
 
