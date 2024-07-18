@@ -7,8 +7,11 @@
 .DS_Store
 **/.DS_Store
 
-# dfx temporary files
-.dfx/
+# Ignore everything in the .dfx directory
+.dfx/ic/lsp
+.dfx/ic/canisters/idl
+.dfx/ic/canisters/neuronpool/*
+!.dfx/ic/canisters/neuronpool/neuronpool.wasm
 
 # generated files
 **/declarations/
@@ -21,5 +24,11 @@ node_modules/
 dist/
 .svelte-kit/
 
-# environment variables
+# configs
+canister_ids.json
 .env
+.mops
+canister.sh
+
+# ignore the main code
+src/main.mo

@@ -1,7 +1,7 @@
 {
   "canisters": {
-    "giveaway_backend": {
-      "main": "src/giveaway_backend/main.mo",
+    "giveaway": {
+      "main": "src/main.mo",
       "type": "motoko"
     }
   },
