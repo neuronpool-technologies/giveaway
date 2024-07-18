@@ -10,8 +10,8 @@
 # Ignore everything in the .dfx directory
 .dfx/ic/lsp
 .dfx/ic/canisters/idl
-.dfx/ic/canisters/neuronpool/*
-!.dfx/ic/canisters/neuronpool/neuronpool.wasm
+.dfx/ic/canisters/giveaway/*
+!.dfx/ic/canisters/giveaway/giveaway.wasm
 
 # generated files
 **/declarations/

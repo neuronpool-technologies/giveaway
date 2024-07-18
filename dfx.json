@@ -2,7 +2,12 @@
   "canisters": {
     "giveaway": {
       "main": "src/main.mo",
-      "type": "motoko"
+      "type": "motoko",
+      "pullable": {
+        "dependencies": [],
+        "wasm_url": "https://github.com/neuronpool-technologies/giveaway/raw/main/.dfx/ic/canisters/giveaway/giveaway.wasm",
+        "init_guide": "dfx deps pull"
+      }
     }
   },
   "defaults": {
