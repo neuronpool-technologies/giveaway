@@ -31,4 +31,4 @@ canister_ids.json
 canister.sh
 
 # ignore the main code
-src/main.mo
+src/
